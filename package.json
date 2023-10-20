@@ -1,0 +1,22 @@
+{
+  "name": "cypress_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "cypress open",
+    "test:headless": "cypress run",
+    "test:headless:chrome": "cypress run --browser chrome",
+    "test:headless:chrome:spec": "cypress run --browser chrome --spec ./cypress/e2e/waitingForElements.cy.js"
+  },
+
+  
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0",
+    "prettier": "^3.0.3"
+  }
+}
